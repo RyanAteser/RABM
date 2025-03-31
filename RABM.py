@@ -839,9 +839,8 @@ class ReflexivityBrownianMotion:
         self.simulate = wrapped_simulate
 
         try:
-            # Existing calibration logic
-            # (keep the rest of the method the same)
-            result = ... # your existing calibration logic
+           
+            result = ... 
 
         finally:
             # Restore original simulate method
